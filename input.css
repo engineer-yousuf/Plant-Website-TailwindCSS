@@ -8,9 +8,35 @@ body {
     @apply bg-green-950 text-white font-Jost tracking-wider;
 }
 
+section{
+    @apply bg-green-950 text-white font-Jost tracking-wider;
+}
+
+h1{
+    @apply pt-20 md:pt-28;
+}
+
 .nav-link{
     @apply text-lg font-bold duration-300;
 }
 .nav-link:hover{
     @apply text-yellow-500;
+}
+ 
+/* button */
+.btn{
+    @apply border border-yellow-500 bg-yellow-500 rounded-md px-5 py-2 duration-300;
+}
+.btn span{
+    @apply font-bold;
+}
+.btn:hover{
+    @apply opacity-90;
+}
+
+.btn_outline{
+    @apply bg-transparent;
+}
+.btn_outline:hover{
+    @apply bg-yellow-500;
 }
