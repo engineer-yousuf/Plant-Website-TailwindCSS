@@ -4,3 +4,12 @@
 ---
 
 ### Header Part Completed. 
+---
+
+### Home Section Completed.
+---
+
+### Service Section Completed.
+---
+
+### About Section also Completed.
