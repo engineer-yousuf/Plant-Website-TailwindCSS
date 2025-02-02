@@ -12,6 +12,11 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css" integrity="sha512-MqL4+Io386IOPMKKyplKII0pVW5e+kb+PI/I3N87G3fHIfrgNNsRpzIXEi+0MQC0sR9xZNqZqCYVcC61fL5+Vg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
   <!-- ~~~~~~~~~ Swiper's CSS ~~~~~~~~~~~ -->
+  <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+
 
   <link href="./output.css" rel="stylesheet">
 </head>
@@ -341,8 +346,87 @@
     </section>
 
     <!--~~~~~~~~~~~~~~~ Review ~~~~~~~~~~~~~~~-->
-    <section id="review">
+    <section id="review" class="relative mb-20 md:mb-28 overflow-hidden">
 
+        <div class="absolute -top-8 -left-12 opacity-50">
+            <img src="assets/img/leaf-4.png" alt="leaf_image" class="w-40 md:w-52 xl:w-64">
+        </div>
+
+        <div class="py-14 flex flex-col items-center gap-3 text-center mb-10 md:mb-20">
+            <h2 class="title">Costomer Review</h2>
+            <p class="max-w-2xl">Follow instruction for more</p>
+        </div>
+
+        <div class="container">
+            <div class="swiper py-12">
+                <ul class="swiper-wrapper">
+
+                    <!-- swiper item 1 -->
+                    <li class="swiper-slide">
+                        <div class="flex flex-col gap-5 bg-green-900 rounded-md p-6">
+                            <p class="font-Lobster">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio officiis non laborum in veritatis corrupti tempore nam!</p>
+                            <div class="flex items-center">
+                                <img src="assets/img/review-1.jpg" alt="review_image" class="w-12 h-12 rounded-full">
+                                <div class="ml-2">
+                                    <p class="text-yellow-500 uppercase">John Doe</p>
+                                    <p>Designer</p>
+                                </div>
+                                <i class="ri-double-quotes-r text-4xl ml-auto"></i>
+                            </div>
+                        </div>
+                    </li>
+
+                    <!-- swiper item 2 -->
+                    <li class="swiper-slide">
+                        <div class="flex flex-col gap-5 bg-green-900 rounded-md p-6">
+                            <p class="font-Lobster">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio officiis non laborum in veritatis corrupti tempore nam!</p>
+                            <div class="flex items-center">
+                                <img src="assets/img/review-2.jpg" alt="review_image" class="w-12 h-12 rounded-full">
+                                <div class="ml-2">
+                                    <p class="text-yellow-500 uppercase">John Doe</p>
+                                    <p>Designer</p>
+                                </div>
+                                <i class="ri-double-quotes-r text-4xl ml-auto"></i>
+                            </div>
+                        </div>
+                    </li>
+
+                    <!-- swiper item 3 -->
+                    <li class="swiper-slide">
+                        <div class="flex flex-col gap-5 bg-green-900 rounded-md p-6">
+                            <p class="font-Lobster">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio officiis non laborum in veritatis corrupti tempore nam!</p>
+                            <div class="flex items-center">
+                                <img src="assets/img/review-3.jpg" alt="review_image" class="w-12 h-12 rounded-full">
+                                <div class="ml-2">
+                                    <p class="text-yellow-500 uppercase">John Doe</p>
+                                    <p>Designer</p>
+                                </div>
+                                <i class="ri-double-quotes-r text-4xl ml-auto"></i>
+                            </div>
+                        </div>
+                    </li>
+
+                    <!-- swiper item 4 -->
+                    <li class="swiper-slide">
+                        <div class="flex flex-col gap-5 bg-green-900 rounded-md p-6">
+                            <p class="font-Lobster">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio officiis non laborum in veritatis corrupti tempore nam!</p>
+                            <div class="flex items-center">
+                                <img src="assets/img/review-4.jpg" alt="review_image" class="w-12 h-12 rounded-full">
+                                <div class="ml-2">
+                                    <p class="text-yellow-500 uppercase">John Doe</p>
+                                    <p>Designer</p>
+                                </div>
+                                <i class="ri-double-quotes-r text-4xl ml-auto"></i>
+                            </div>
+                        </div>
+                    </li>
+
+                </ul>
+                <!-- swiper pagination  -->
+                <div class="swiper-pagination"></div>
+
+            </div>
+        </div>
     </section>
 </main>
 
@@ -362,6 +446,7 @@
 <!--~~~~~~~~~~~~~~~ Scroll Up ~~~~~~~~~~~~~~~-->
 
 <!--~~~~~~~~~~~~~~~ Swiper JS ~~~~~~~~~~~~~~~-->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
 <!--~~~~~~~~~~ SCROLLREVEAL ~~~~~~~~~~-->
 
